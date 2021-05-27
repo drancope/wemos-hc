@@ -4,10 +4,16 @@ Two more wemos are also used to emit wifi orders (post http method). These ones 
 The main server creates its own local wifi lan, and mobile phones can get an ip and access the wemos web server, displaying a page where the user can turn on/off the lights.
 
 # Goals:
+- learning and experimenting with mc and electronics
+ -- programming servers, use of wifi libraries
+ -- making PCBs with power devices
+
 - use of wemos minicontrollers to switch lights at home,
   -- server to accept mobile orders
   -- reliable if home router fails
+  -- initially, does not depend on iot standards, but considering learning about that.
   
 - Expandable
  -- accepting internet orders
    --- a second wemos wired to main wemos, to provide connection to local network.
+   --- future use of cloud computing, or aws iot messages.
